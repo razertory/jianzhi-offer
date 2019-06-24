@@ -1,5 +1,6 @@
 package VerifySquenceOfBST;
 
+// https://www.nowcoder.com/practice/a861533d45854474ac791d90e447bafd
 public class Solution {
     public boolean VerifySquenceOfBST(int [] sequence) {
         if (sequence == null || sequence.length == 0) return false;
