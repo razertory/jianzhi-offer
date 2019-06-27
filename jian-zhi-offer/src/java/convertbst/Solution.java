@@ -2,6 +2,10 @@ package convertbst;
 
 import java.util.ArrayList;
 
+/**
+ * 二叉搜索树转双向链表
+ * https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5
+ */
 public class Solution {
     public class TreeNode {
         int val = 0;

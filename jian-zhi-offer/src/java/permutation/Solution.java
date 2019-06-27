@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashSet;
 
+/**
+ * 字符串的全排列
+ * https://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7
+ */
 public class Solution {
     public ArrayList<String> Permutation(String str) {
         if (str == null || str.isEmpty()) return new ArrayList<>();

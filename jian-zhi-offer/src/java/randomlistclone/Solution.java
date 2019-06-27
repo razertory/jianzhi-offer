@@ -2,6 +2,10 @@ package randomlistclone;
 
 import java.util.HashMap;
 
+/**
+ * 克隆一个复杂的链表
+ * https://www.nowcoder.com/practice/f836b2c43afc4b35ad6adc41ec941dba
+ */
 public class Solution {
     public class RandomListNode {
         int label;
