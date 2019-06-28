@@ -1,4 +1,4 @@
-package permutation;
+package jianzhioffer.permutation;
 
 import java.util.ArrayList;
 import java.util.Comparator;

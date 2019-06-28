@@ -1,4 +1,4 @@
-package morethanhalf;
+package jianzhioffer.morethanhalf;
 
 import java.util.HashMap;
 

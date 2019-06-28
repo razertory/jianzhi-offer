@@ -1,4 +1,4 @@
-package greatestsubarray;
+package jianzhioffer.greatestsubarray;
 
 
 /**

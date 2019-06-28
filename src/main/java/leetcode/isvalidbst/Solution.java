@@ -1,8 +1,11 @@
-package isValidBST;
+package leetcode.isvalidbst;
 
 import java.util.ArrayList;
 
-// https://leetcode.com/problems/validate-binary-search-tree/
+/**
+ * 是否是二叉搜索树
+ * https://leetcode.com/problems/validate-binary-search-tree/
+ */
 public class Solution {
     public class TreeNode {
         int val;

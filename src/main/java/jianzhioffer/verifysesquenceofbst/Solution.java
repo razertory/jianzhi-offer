@@ -1,4 +1,4 @@
-package VerifySquenceOfBST;
+package jianzhioffer.verifysesquenceofbst;
 
 /**
  * 验证二叉搜索树序列

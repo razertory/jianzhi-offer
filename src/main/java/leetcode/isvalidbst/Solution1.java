@@ -1,6 +1,6 @@
-package isValidBST;
+package leetcode.isvalidbst;
 
-public class Soluation1 {
+public class Solution1 {
     public class TreeNode {
         int val;
         TreeNode left;

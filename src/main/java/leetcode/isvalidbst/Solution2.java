@@ -1,16 +1,14 @@
-package isValidBST;
+package leetcode.isvalidbst;
 
-/**
- * @author springchan
- * @date 2019-06-24
- * @description
- **/
 public class Solution2 {
     public class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode(int x) { val = x; }
+
+        TreeNode(int x) {
+            val = x;
+        }
     }
 
 

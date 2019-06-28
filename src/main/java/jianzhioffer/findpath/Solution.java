@@ -1,4 +1,4 @@
-package FindPath;
+package jianzhioffer.findpath;
 
 import java.util.ArrayList;
 import java.util.List;

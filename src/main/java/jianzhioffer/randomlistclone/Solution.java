@@ -1,4 +1,4 @@
-package randomlistclone;
+package jianzhioffer.randomlistclone;
 
 import java.util.HashMap;
 
