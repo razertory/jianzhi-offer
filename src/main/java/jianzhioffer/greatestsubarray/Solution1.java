@@ -6,7 +6,6 @@ package jianzhioffer.greatestsubarray;
  * @description
  **/
 public class Solution1 {
-
     public int FindGreatestSumOfSubArray(int[] array) {
         if (array == null || array.length == 0) return 0;
         int[] dp = new int[array.length];
