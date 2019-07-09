@@ -2,7 +2,7 @@ package jianzhioffer.verifysesquenceofbst;
 
 /**
  * 验证二叉搜索树序列
- * https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5
+ * https://www.nowcoder.com/practice/a861533d45854474ac791d90e447bafd
  */
 public class Solution {
     public boolean VerifySquenceOfBST(int [] sequence) {
