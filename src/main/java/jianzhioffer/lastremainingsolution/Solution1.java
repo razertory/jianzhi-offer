@@ -1,5 +1,8 @@
 package jianzhioffer.lastremainingsolution;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * @author springchan
  * @date 2019-07-06
@@ -7,20 +10,16 @@ package jianzhioffer.lastremainingsolution;
  **/
 public class Solution1 {
     public int LastRemaining_Solution(int n, int m){
-        if(n<1||m<1) return -1;
-        int[] array = new int[n];
-        int i = -1,step = 0, count = n;
-        while(count>0){   //跳出循环时将最后一个元素也设置为了-1
-            i++;          //指向上一个被删除对象的下一个元素。
-            if(i>=n) i=0;  //模拟环。
-            if(array[i] == -1) continue; //跳过被删除的对象。
-            step++;                     //记录已走过的。
-            if(step==m) {               //找到待删除的对象。
-                array[i]=-1;
-                step = 0;
-                count--;
-            }
+        if (n == 0) return 0;
+
+        List numbers = new LinkedList<Integer>();
+        for (int i = 0; i < n; i++) numbers.add(i);
+        int index = -1;
+        while(numbers.size() > 1) {
+            index = (m + index) % numbers.size(); // 模拟链表
+            numbers.remove(index);
+            index--;
         }
-        return i;//返回跳出循环时的i,即最后一个被设置为-1的元素
+        return (int) numbers.get(0);
     }
 }
