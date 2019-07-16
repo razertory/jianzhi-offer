@@ -1,6 +1,8 @@
 package pat.maximumsubsequencesum;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * @author springchan
@@ -8,12 +10,15 @@ import java.util.Scanner;
  * @description
  **/
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int len = scanner.nextInt();
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        int len = Integer.valueOf(reader.readLine());
         int[] numbers = new int[len];
-        for (int i = 0; i < len; i++)
-            numbers[i] = scanner.nextInt();
+        String[] split = reader.readLine().split(" ");
+        for (int i = 0; i < len; i++){
+            numbers[i] = Integer.valueOf(split[i]);
+        }
+
         maxSubset(numbers, len);
     }
 
